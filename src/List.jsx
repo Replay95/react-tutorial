@@ -1,9 +1,15 @@
-export function List(props) {
-  const title = props.title;
-  return (
-    <div>
-      <h4>{title}</h4>
-      <div>リストです</div>
-    </div>
-  );
+import React from "react";
+
+const LANGUAGES = [`JavaScript`, `C++`, `Ruby`, `Java`, `PHP`, `Go`];
+
+export class List extends React.Component {
+  render() {
+    return (
+      <div>
+        {LANGUAGES.map((lang, index) => {
+          return <div key={index}>{lang}</div>;
+        })}
+      </div>
+    );
+  }
 }
