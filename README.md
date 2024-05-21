@@ -1,8 +1,9 @@
-# React + Vite
+<Day1>
+lesson1:https://www.youtube.com/watch?v=lEEC_NuIGQc&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=1&pp=iAQB
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+lesson2:https://www.youtube.com/watch?v=8KV1CBcB2Yg&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=2&pp=iAQB
 
-Currently, two official plugins are available:
+lesson3:https://www.youtube.com/watch?v=ve85ejcYiZ0&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=3&pp=iAQB
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<Day2>
+lesson4:https://www.youtube.com/watch?v=ZLEMN2pCE8E&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=4&pp=iAQB

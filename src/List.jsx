@@ -1,9 +1,12 @@
-export function List(props) {
-  const title = props.title;
+const LANGUAGES = [`JavaScript`, `C++`, `Ruby`, `Java`, `PHP`, `Go`];
+
+export function List() {
   return (
     <div>
-      <h4>{title}</h4>
-      <div>リストです</div>
+      {/* string, number */}
+      {LANGUAGES.map((lang, index) => {
+        return <div key={index}>{lang}</div>;
+      })}
     </div>
   );
 }
