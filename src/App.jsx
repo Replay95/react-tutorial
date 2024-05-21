@@ -1,9 +1,16 @@
 import { useState } from "react";
 import { List } from "./List";
 import { Form } from "./Form";
+import { LANGUAGES } from "./const/languages";
 
 function App() {
   const [tab, setTab] = useState(`list`); //initialState
+  const [langs, setLangs] = useState(LANGUAGES);
+
+  function addLang(lang) {
+    setLangs([...langs, lang]);
+    setTab(`list`);
+  }
 
   return (
     <div>
@@ -15,7 +22,7 @@ function App() {
       </header>
       <hr />
 
-      {tab === `list` ? <List /> : <Form />}
+      {tab === `list` ? <List langs={langs} /> : <Form onAddlang={addLang} />}
     </div>
   );
 }
