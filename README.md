@@ -18,3 +18,5 @@ lesson8:lesson8:https://www.youtube.com/watch?v=9iulWDK95TY&list=PL0ATFRXu9uECMP
 
 <Day4>
 lesson9:https://www.youtube.com/watch?v=Kx3cOJWXS8c&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=9&pp=iAQB
+
+lesson10:https://www.youtube.com/watch?v=j-c7qQNNRa8&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=10&pp=iAQB
