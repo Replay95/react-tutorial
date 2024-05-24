@@ -1,7 +1,8 @@
 import { useState } from "react";
-import { Button } from "./components/button";
 import styled from "styled-components";
+import { Button } from "./components/button";
 import { TabBodyContainer } from "./components/tab-body-container";
+import { FormModal } from "./FormModal";
 
 const Label = styled.label`
   display: flex;
@@ -9,27 +10,25 @@ const Label = styled.label`
   font-size: 14px;
   font-weight: bold;
 `;
-
 const Input = styled.input`
-  border: 1px solid black;
   border-radius: 3px;
   padding: 4px 8px;
+  border: 1px solid black;
 `;
-
 const ButtonContainer = styled.div`
   margin-top: 24px;
 `;
-
 const FormButton = styled(Button)`
   width: 120px;
 `;
 
-export function Form({ onAddlang }) {
-  const [text, setText] = useState(``);
+export function Form({ onAddLang }) {
+  const [text, setText] = useState("");
+  const [showModal, setShowModal] = useState(false);
 
   function submitForm(e) {
     e.preventDefault();
-    onAddlang(text);
+    setShowModal(true);
   }
 
   return (
@@ -41,12 +40,19 @@ export function Form({ onAddlang }) {
             type="text"
             value={text}
             onChange={(e) => setText(e.target.value)}
+            autoFocus
           />
         </div>
         <ButtonContainer>
           <FormButton>追加</FormButton>
         </ButtonContainer>
       </form>
+      {showModal && (
+        <FormModal
+          confirm={() => onAddLang(text)}
+          cancel={() => setShowModal(false)}
+        />
+      )}
     </TabBodyContainer>
   );
 }

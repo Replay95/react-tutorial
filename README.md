@@ -16,3 +16,6 @@ lesson6:https://www.youtube.com/watch?v=SKrnW7PRBdk&list=PL0ATFRXu9uECMPBV7GspaL
 lesson7:https://www.youtube.com/watch?v=VxwI2tavv_M&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=7&pp=iAQB
 
 lesson8:https://www.youtube.com/watch?v=9iulWDK95TY&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=8&pp=iAQB
+
+<Day4>
+lesson9:https://www.youtube.com/watch?v=Kx3cOJWXS8c&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=9&pp=iAQB
