@@ -1,4 +1,4 @@
-import * as ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
 import styled from "styled-components";
 
 const modalRoot = document.getElementById("modal-root");
@@ -7,7 +7,7 @@ const Container = styled.div`
   position: absolute;
   top: 0;
   left: 0;
-  display: 0;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;

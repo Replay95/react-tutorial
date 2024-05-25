@@ -32,3 +32,9 @@ lesson9:https://www.youtube.com/watch?v=Kx3cOJWXS8c&list=PL0ATFRXu9uECMPBV7GspaL
 lesson10:https://www.youtube.com/watch?v=j-c7qQNNRa8&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=10&pp=iAQB
 学習内容：ref によるエレメントの取得
 
+Day5
+lesson11:https://www.youtube.com/watch?v=cYa8-3lfCn4&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=11&pp=iAQB
+学習内容：Context を利用したテーマの変更
+
+lesson12:https://www.youtube.com/watch?v=VRbEqvneqL4&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=12&pp=iAQB
+学習内容：lesson1~11 までの復習
