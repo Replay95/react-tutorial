@@ -35,3 +35,6 @@ lesson10:https://www.youtube.com/watch?v=j-c7qQNNRa8&list=PL0ATFRXu9uECMPBV7Gspa
 Day5
 lesson11:https://www.youtube.com/watch?v=cYa8-3lfCn4&list=PL0ATFRXu9uECMPBV7GspaLz3KqKILfa13&index=11&pp=iAQB
 学習内容：Context を利用したテーマの変更
+
+lesson12:
+学習内容：
